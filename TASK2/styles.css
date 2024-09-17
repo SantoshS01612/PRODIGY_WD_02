@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("back4.jpg" );
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.stopwatch{
+    text-align:center;
+    background:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+#display{
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+button{
+    margin:10px ;
+    padding: 10px, 15px;
+    font-size: 1em;
+
+}
+#laps{
+    list-style: 2px;
+    padding: 2;
+
+}
